@@ -1,12 +1,14 @@
 VERSION=v`cat STABLE`
 
+generated_files1 = $(shell find doc -type f -name \*.md | grep -v blog | xargs)
+generated_files = $(addprefix out/,$(patsubst %.md,%.html,$(generated_files1)))
+
 website_dirs = \
 	out/doc \
 	out/doc/api/ \
 	out/doc/api/assets \
 	out/doc/about \
 	out/doc/video \
-	out/doc/community \
 	out/doc/download \
 	out/doc/logos \
   out/doc/resources \
@@ -26,18 +28,24 @@ website_files = \
 	out/doc/pipe.css \
 	out/doc/about/index.html \
 	out/doc/video/index.html \
-	out/doc/community/index.html \
 	out/doc/download/index.html \
 	out/doc/resources/index.html \
+	$(generated_files) \
 	$(doc_images)
 
-doc: $(website_dirs) $(website_files) blog
+doc: website blog
 
 blogclean:
 	rm -rf out/blog
 
 blog: doc/blog tools/blog
 	node tools/blog/generate.js doc/blog/ out/blog/ doc/blog.html doc/rss.xml
+
+website: $(website_dirs) $(website_files)
+
+out/doc/%.html: doc/%.md
+	mkdir -p $(shell dirname $@)
+	node tools/doc/generate.js --format=html --template=doc/website.html $< > $@
 
 $(website_dirs):
 	mkdir -p $@
