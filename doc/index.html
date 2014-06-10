@@ -16,21 +16,17 @@
   </head>
   <body id="front">
     <div id="nav">
+      <img id="logo" src="/images/logo.svg" alt="node.js">
       <ul>
-        <li class="active"><a href="/"><img src="/images/baby-node.svg" width="12"></a></li>
-        <li><a href="/download">Download</a></li>
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/download">Downloads</a></li>
         <li><a href="/api">Docs</a></li>
-        <li><a href="http://blog.nodejs.org">Blog</a></li>
-        <li><a href="/community">Community</a></li>
-        <li><a href="http://npmjs.org">Modules</a></li>
-        <li><a href="/resources">Resources</a></li>
+        <li><a href="/contributing">Contributing</a></li>
         <li><a href="http://jobs.nodejs.org">Jobs</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="http://blog.nodejs.org">Blog</a></li>
       </ul>
-      <a href="http://github.com/joyent/node"><img class="forkme" src="/images/fork-me.png" alt="Fork me on GitHub"></a>
     </div>
     <div id="intro">
-        <img id="logo" src="/images/logo.svg" alt="node.js">
 
         <p>Node.js is a platform built on <a
         href="http://code.google.com/p/v8/">Chrome's JavaScript runtime</a>
@@ -39,7 +35,7 @@
         lightweight and efficient, perfect for data-intensive real-time
         applications that run across distributed devices.</p>
 
-        <p>Current Version: __VERSION__</p>
+        <p class="version">Current Version: __VERSION__</p>
 
         <div class=buttons>
         <a href="http://nodejs.org/dist/__VERSION__/node-__VERSION__.tar.gz" class="button downloadbutton" id="downloadbutton">INSTALL</a>
@@ -96,11 +92,43 @@ server.listen(1337, '127.0.0.1');</pre>
     </div>
 
     <div id="footer">
-      <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
-      <img src="/images/joyent-footer.svg" width="200">
-      <p>Production Node + High Performance Infrastructure</p></a>
-      <a href="https://my.joyent.com/landing/signup/701800000015696" class="button getstarted">Get Started</a>
-      <p class="copyright">Copyright <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
+      <div class="foot-1">
+        <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
+        <img src="/images/joyent-footer.svg" width="200">
+        <p class="tag">Production Node +<br>High Performance Infrastructure</p></a>
+        <a href="https://my.joyent.com/landing/signup/701800000015696" class="button getstarted">Get Started</a>
+      </div>
+      <div class="foot-2">
+        <div class="foot-nav">
+          <ul>
+            <li><a href="/download">Downloads</a></li>
+          </ul>
+          <ul>
+            <li><a href="/docs">Documentation</a></li>
+            <li><a href="/docs/api">API Docs</a></li>
+            <li><a href="/docs/getting-started">Getting Started</a></li>
+            <li><a href="/docs/tutorials">Tutorials</a></li>
+          </ul>
+          <ul>
+            <li><a href="/contributing">Contributing</a></li>
+            <li><a href="/contributing/core">Core</a></li>
+            <li><a href="/contributing/documentation">Documentation</a></li>
+            <li><a href="https://nbmjs.org">Modules</a></li>
+          </ul>
+          <ul>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/resources">Logos</a></li>
+            <li><a href="">IRC ??</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/nodejs">Mailing List</a></li>
+          </ul>
+          <ul>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/">Speakers ??</a></li>
+            <li><a href="http://blog.nodejs.org">Blog</a></li>
+          </ul>
+        </div>
+        <p class="copyright">Copyright 2014 <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
+      </div>
     </div>
 
     <script src="sh_main.js"></script>
