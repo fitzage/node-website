@@ -16,12 +16,12 @@
     <title>node.js</title>
   </head>
 
-  <body class="int alt" id="__FILENAME__">
+  <body class="int alt" id="docs">
     <div id="nav">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/download">Downloads</a></li>
-        <li><a href="/docs">Docs</a></li>
+        <li class="active"><a href="/docs">Docs</a></li>
         <li><a href="/contributing">Contributing</a></li>
         <li><a href="http://jobs.nodejs.org">Jobs</a></li>
         <li><a href="http://blog.nodejs.org">Blog</a></li>
@@ -30,8 +30,18 @@
 
     <div id="content-wrap">
     <div id="content" class="clearfix">
+      <div id="column2" class="interior">
+        <img src="/images/logo-light.svg" alt="node.js" width="170">
+        <ul class="docs-nav">
+          <li class="active"><a href="/docs">Index</a></li>
+          <li><a href="/docs/about">About</a></li>
+          <li><a href="/docs/api">API Docs</a></li>
+        </ul>
+      </div>
       <div id="column1" class="interior">
-        __CONTENT__
+        <h1>Manual &amp; Documentation</h1>
+        <hr>
+        <p>The goal of this documentation is to comprehensively explain the Node.js API, both from a reference as well as a conceptual point of view. Each section describes a built-in module or high-level concept.</p>
       </div>
     </div>
     </div>
@@ -85,10 +95,6 @@
         var href = $(location).attr('href');
         var parts = href.split('/');
         $('body').addClass(parts[parts.length-2]);
-        $('.community h2, .contributing h1').not('.no').each(function(){
-            $(this).nextUntil("h2,h1").andSelf().wrapAll('<div class="block" />');
-        });
-        $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
       });
       window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
       (function(d, t) {

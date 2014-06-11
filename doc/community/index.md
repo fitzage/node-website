@@ -1,5 +1,7 @@
 # Community
 
+<hr>
+
 Node's most valuable feature is the friendly and colorful community of
 developers. There are many places where this group congregates on the internet.
 This page attempts to highlight the best forums.

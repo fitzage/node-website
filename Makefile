@@ -7,11 +7,13 @@ website_dirs = \
 	out/doc \
 	out/doc/api/ \
 	out/doc/api/assets \
-	out/doc/about \
 	out/doc/video \
 	out/doc/download \
+	out/doc/docs \
+	out/doc/docs/api \
+	out/doc/docs/about \
 	out/doc/logos \
-  out/doc/resources \
+	out/doc/resources \
 	out/doc/images
 
 doc_images = $(addprefix out/,$(wildcard doc/images/* doc/*.jpg doc/*.png))
@@ -26,9 +28,11 @@ website_files = \
 	out/doc/sh.css \
 	out/doc/favicon.ico   \
 	out/doc/pipe.css \
-	out/doc/about/index.html \
 	out/doc/video/index.html \
 	out/doc/download/index.html \
+	out/doc/docs/index.html \
+	out/doc/docs/api/index.html \
+	out/doc/docs/about/index.html \
 	out/doc/resources/index.html \
 	$(generated_files) \
 	$(doc_images)
