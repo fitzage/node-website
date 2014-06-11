@@ -93,6 +93,7 @@
         var href = $(location).attr('href');
         var parts = href.split('/');
         $('body').addClass(parts[parts.length-2]);
+        $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
       });
       window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
       (function(d, t) {
