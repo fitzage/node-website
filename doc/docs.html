@@ -13,7 +13,7 @@
           type="application/rss+xml"
           title="node blog"
           href="http://feeds.feedburner.com/nodejs/123123123">
-    <title>node.js</title>
+    <title>__TITLE__ | node.js</title>
   </head>
 
   <body class="int alt" id="docs">
@@ -33,9 +33,9 @@
       <div id="column2" class="interior">
         <img src="/images/logo-light.svg" alt="node.js" width="170">
         <ul class="docs-nav">
-          <li><a href="/docs">Index</a></li>
-          <li><a href="/docs/about">About</a></li>
-          <li><a href="/docs/api">API Docs</a></li>
+          <li><a href="/docs/">Index</a></li>
+          <li><a href="/docs/about/">About</a></li>
+          <li><a href="/docs/api/">API Docs</a></li>
         </ul>
       </div>
       <div id="column1" class="interior">
@@ -94,6 +94,13 @@
         var parts = href.split('/');
         $('body').addClass(parts[parts.length-2]);
         $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
+        $(function() {
+          $('.docs-nav a').each(function() {
+            if ($(this).attr("href") == window.location.pathname) {
+              $(this).parent().closest('li').addClass('active');
+            }
+          });
+        });
       });
       window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
       (function(d, t) {

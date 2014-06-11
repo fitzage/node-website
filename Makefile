@@ -9,9 +9,6 @@ website_dirs = \
 	out/doc/api/assets \
 	out/doc/video \
 	out/doc/download \
-	out/doc/docs \
-	out/doc/docs/api \
-	out/doc/docs/about \
 	out/doc/logos \
 	out/doc/resources \
 	out/doc/images
@@ -30,9 +27,6 @@ website_files = \
 	out/doc/pipe.css \
 	out/doc/video/index.html \
 	out/doc/download/index.html \
-	out/doc/docs/index.html \
-	out/doc/docs/api/index.html \
-	out/doc/docs/about/index.html \
 	out/doc/resources/index.html \
 	$(generated_files) \
 	$(doc_images)
