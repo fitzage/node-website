@@ -10,7 +10,6 @@ website_dirs = \
 	out/doc/video \
 	out/doc/download \
 	out/doc/logos \
-	out/doc/resources \
 	out/doc/images
 
 doc_images = $(addprefix out/,$(wildcard doc/images/* doc/*.jpg doc/*.png))
@@ -27,7 +26,6 @@ website_files = \
 	out/doc/pipe.css \
 	out/doc/video/index.html \
 	out/doc/download/index.html \
-	out/doc/resources/index.html \
 	$(generated_files) \
 	$(doc_images)
 

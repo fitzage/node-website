@@ -16,13 +16,13 @@ Node.js documentation is a living network that compounds with new infomation for
 
 # Resources
 
-* [link](http://test.com)
+* [Logos](/contributing/resources/)
 * [link](http://test.com)
 * [link](http://test.com)
 
 # Community
 
-* [link](http://test.com)
+* [Community Directory](/contributing/community/)
 * [link](http://test.com)
 * [link](http://test.com)
 

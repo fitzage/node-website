@@ -300,6 +300,10 @@ h1 a, h2 a, h3 a, h4 a {
   width: 953px;
 }
 
+.int.community #content {
+  width: 775px;
+}
+
 #column1 {
   width: 460px;
   float: left;
@@ -488,8 +492,17 @@ h1 a, h2 a, h3 a, h4 a {
   margin-right: 30px;
 }
 
-div.block:nth-of-type(4n) {
+.community .block {
+  width: 365px;
+  min-height: 270px;
+}
+
+div.block:nth-of-type(4n),.community div.block:nth-of-type(2n) {
   margin-right: 0;
+}
+
+.block.index_md_irc {
+  width: 100%;
 }
 
 .block h2 {
@@ -724,6 +737,10 @@ hr {
   width: 510px;
   font-size: 19px;
   line-height: 35px;
+}
+
+.community #content hr + p {
+  width: 100%;
 }
 
 .docs-nav {

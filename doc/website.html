@@ -89,6 +89,10 @@
             $(this).nextUntil("h2,h1").andSelf().wrapAll('<div class="block" />');
         });
         $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
+        $('.block h2 a.mark').each(function() {
+          var blockclass = $(this).attr('id');
+          $(this).parent().closest('div').addClass(blockclass);
+        });
       });
       window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
       (function(d, t) {
