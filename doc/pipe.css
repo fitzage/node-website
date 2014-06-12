@@ -90,6 +90,12 @@ h2 {
   margin-bottom: 0;
 }
 
+.contributing #content ul a {
+  font-weight: bold;
+  line-height: 15px;
+  text-decoration: underline;
+}
+
 h1 code, h2 code, h3 code, h4 code,
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
