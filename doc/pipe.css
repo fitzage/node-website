@@ -74,6 +74,14 @@ h2 {
   text-transform: none;
 }
 
+#front h1, #front h2, #front h3, #front h4 {
+  font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #80bd01;
+}
+
 .contributing h1 {
   font-weight: 200;
   font-size: 30px;
@@ -412,7 +420,7 @@ h1 a, h2 a, h3 a, h4 a {
   padding-top: 30px;
 }
 
-#column2 img {
+.int #column2 img {
   margin-left: 20px;
 }
 

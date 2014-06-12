@@ -16,21 +16,18 @@
 </head>
 
 <body class="int blog" id="<%= pageid %>">
-    <div id="nav">
-      <ul>
-        <li><a href="http://nodejs.org"><img src="http://nodejs.org/images/baby-node.svg" width="12"></a></li>
-        <li><a href="http://nodejs.org/download">Download</a></li>
-        <li><a href="http://nodejs.org/api">Docs</a></li>
-        <li class="active"><a href="http://blog.nodejs.org">Blog</a></li>
-        <li><a href="http://nodejs.org/community">Community</a></li>
-        <li><a href="http://npmjs.org">Modules</a></li>
-        <li><a href="http://nodejs.org/resources">Resources</a></li>
-        <li><a href="http://jobs.nodejs.org">Jobs</a></li>
-        <li><a href="http://nodejs.org/about">About</a></li>
-      </ul>
-    </div>
+  <div id="nav">
+    <img id="logo" src="http://nodejs.org/images/logo.svg" alt="node.js">
+    <ul>
+      <li><a href="http://nodejs.org/">Home</a></li>
+      <li><a href="http://nodejs.org/download">Downloads</a></li>
+      <li><a href="http://nodejs.org/docs">Docs</a></li>
+      <li><a href="http://nodejs.org/contributing">Contributing</a></li>
+      <li><a href="http://jobs.nodejs.org">Jobs</a></li>
+      <li class="active"><a href="http://blog.nodejs.org">Blog</a></li>
+    </ul>
+  </div>
   <div id="intro">
-    <img src="http://nodejs.org/images/logo.svg" width="300" class="logo">
   </div>
   <div id="content-wrap">
   <div id="content" class="clearfix">
@@ -141,12 +138,43 @@
   </div>
 
   <div id="footer">
-    <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
-    <img src="http://nodejs.org/images/joyent-footer.svg" width="200">
-    <p>Production Node + High Performance Infrastructure</p></a>
-    <a href="https://my.joyent.com/landing/signup/701800000015696" class="button getstarted">Get Started</a>
-    <p class="copyright">Copyright <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
-  </div>
+    <div class="foot-1">
+      <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
+      <img src="/images/joyent-footer.svg" width="200">
+      <p class="tag">Production Node +<br>High Performance Infrastructure</p></a>
+      <a href="https://my.joyent.com/landing/signup/701800000015696" class="button getstarted">Get Started</a>
+    </div>
+    <div class="foot-2">
+      <div class="foot-nav">
+        <ul>
+          <li><a href="/download">Downloads</a></li>
+        </ul>
+        <ul>
+          <li><a href="/docs">Documentation</a></li>
+          <li><a href="/docs/api">API Docs</a></li>
+          <li><a href="/docs/getting-started">Getting Started</a></li>
+          <li><a href="/docs/tutorials">Tutorials</a></li>
+        </ul>
+        <ul>
+          <li><a href="/contributing">Contributing</a></li>
+          <li><a href="/contributing/core">Core</a></li>
+          <li><a href="/contributing/documentation">Documentation</a></li>
+          <li><a href="https://nbmjs.org">Modules</a></li>
+        </ul>
+        <ul>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="/resources">Logos</a></li>
+          <li><a href="">IRC ??</a></li>
+          <li><a href="https://groups.google.com/forum/#!forum/nodejs">Mailing List</a></li>
+        </ul>
+        <ul>
+          <li><a href="/events">Events</a></li>
+          <li><a href="/">Speakers ??</a></li>
+          <li><a href="http://blog.nodejs.org">Blog</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Copyright 2014 <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
+    </div>
 
   <script src="../sh_main.js"></script>
   <script src="../sh_javascript.min.js"></script>
