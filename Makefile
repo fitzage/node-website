@@ -13,6 +13,11 @@ website_dirs = \
 	out/doc/images
 
 doc_images = $(addprefix out/,$(wildcard doc/images/* doc/*.jpg doc/*.png))
+website_assets = $(addprefix out/,$(wildcard doc/*.css doc/*.js))
+
+blog_dirs = $(patsubst out/doc/%,out/blog/%,$(website_dirs))
+blog_assets = $(patsubst out/doc/%,out/blog/%,$(website_assets))
+blog_images = $(patsubst out/doc/%,out/blog/%,$(doc_images))
 
 website_files = \
 	out/doc/index.html    \
@@ -27,14 +32,19 @@ website_files = \
 	out/doc/video/index.html \
 	out/doc/download/index.html \
 	$(generated_files) \
-	$(doc_images)
+	$(doc_images) \
+	$(website_assets)
+
+blog_files = \
+	$(blog_assets) \
+	$(blog_images)
 
 doc: website blog
 
 blogclean:
 	rm -rf out/blog
 
-blog: doc/blog tools/blog
+blog: doc/blog tools/blog $(blog_dirs) $(blog_files)
 	node tools/blog/generate.js doc/blog/ out/blog/ doc/blog.html doc/rss.xml
 
 website: $(website_dirs) $(website_files)
@@ -46,10 +56,16 @@ out/doc/%.html: doc/%.md
 $(website_dirs):
 	mkdir -p $@
 
+$(blog_dirs):
+	mkdir -p $@
+
 out/doc/%.html: doc/%.html
 	cat $< | sed -e 's|__VERSION__|'$(VERSION)'|g' > $@
 
 out/doc/%: doc/%
+	cp -r $< $@
+
+out/blog/%: doc/%
 	cp -r $< $@
 
 blog-upload: blog
