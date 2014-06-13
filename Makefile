@@ -22,7 +22,6 @@ blog_images = $(patsubst out/doc/%,out/blog/%,$(doc_images))
 website_files = \
 	out/doc/index.html    \
 	out/doc/v0.4_announcement.html   \
-	out/doc/cla.html      \
 	out/doc/sh_main.js    \
 	out/doc/sh_javascript.min.js \
 	out/doc/sh_vim-dark.css \
