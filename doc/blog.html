@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="http://nodejs.org/pipe.css">
-  <link rel="stylesheet" href="http://nodejs.org/sh_vim-dark.css">
+  <link rel="stylesheet" href="/pipe.css">
+  <link rel="stylesheet" href="/sh_vim-dark.css">
   <script type="text/javascript" src="//use.typekit.net/mse5tqx.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <title><%= title || "Node.js Blog" %></title>
@@ -15,9 +15,9 @@
     %>">
 </head>
 
-<body class="int blog" id="<%= pageid %>">
+<body class="blog alt" id="<%= pageid %>">
   <div id="nav">
-    <img id="logo" src="http://nodejs.org/images/logo.svg" alt="node.js">
+    <img id="logo" src="/images/logo.svg" alt="node.js">
     <ul>
       <li><a href="http://nodejs.org/">Home</a></li>
       <li><a href="http://nodejs.org/download">Downloads</a></li>
@@ -26,8 +26,6 @@
       <li><a href="http://jobs.nodejs.org">Jobs</a></li>
       <li class="active"><a href="http://blog.nodejs.org">Blog</a></li>
     </ul>
-  </div>
-  <div id="intro">
   </div>
   <div id="content-wrap">
   <div id="content" class="clearfix">
@@ -175,9 +173,10 @@
       </div>
       <p class="copyright">Copyright 2014 <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
     </div>
+  </div>
 
-  <script src="../sh_main.js"></script>
-  <script src="../sh_javascript.min.js"></script>
+  <script src="/sh_main.js"></script>
+  <script src="/sh_javascript.min.js"></script>
   <script>highlight(undefined, undefined, 'pre');</script>
   <script>
     window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
