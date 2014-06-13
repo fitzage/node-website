@@ -8,7 +8,7 @@ Node.js as a software project aims to provide a small and maintainable interface
 
 # Docs
 
-* [link](http://test.com)
+* [Localization](/contributing/localization/)
 * [link](http://test.com)
 * [link](http://test.com)
 

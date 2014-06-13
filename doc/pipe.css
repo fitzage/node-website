@@ -743,13 +743,8 @@ hr {
 
 #content hr + p {
   color: #333333;
-  width: 510px;
   font-size: 19px;
   line-height: 35px;
-}
-
-.community #content hr + p {
-  width: 100%;
 }
 
 .docs-nav {
