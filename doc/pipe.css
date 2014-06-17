@@ -464,6 +464,10 @@ h1 a, h2 a, h3 a, h4 a {
   padding-left: 40px;
 }
 
+#column1.interior .signature ul {
+  padding-left: 0;
+}
+
 #docs #column1.interior {
   width: 866px;
   float: left;
@@ -805,4 +809,37 @@ a.mark:hover {
   padding-bottom: 30px;
   margin-bottom: 40px;
   border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.carousel {
+  background: #80bd01;
+  height: 270px;
+  widt: 100%;
+  text-align: center;
+}
+
+.carousel img {
+  height: 270px;
+  margin: 0 auto;
+}
+
+.carousel .cycle-slideshow {
+  width: 973px;
+  margin: 0 auto;
+}
+
+#Contributing #content h1 {
+  border-bottom: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 23px;
+  position: absolute;
+  top: 270px;
+  text-align: center;
+  left: 50%;
+  margin-left: -29%;
+  color: white;
+  background: rgba(0,0,0,.7);
+  padding: 3px 10px 3px 15px;
+  z-index: 999;
 }

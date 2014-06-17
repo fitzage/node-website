@@ -1,10 +1,10 @@
-# Contributing
+# We encourage any and all styles of contribution from the community.
 
 The Node.js community is large and inclusive, and excited to enable as many users to contribute in whatever what they can. If what you're looking to do is report an issue, or learn how to contribute to our projects, this is the right place to learn how.
 
 ## Core
 
-* [Core Team](/contributing/core-team)
+* [Core Team](/contributing/core-team/)
 * [link](http://test.com)
 * [link](http://test.com)
 
@@ -12,15 +12,15 @@ Node.js as a software project aims to provide a small and maintainable interface
 
 ## Docs
 
-* [Contributing Documentation](/docs/contributing/)
-* [Localization](/docs/localization/)
-* [Tutorials](/docs/tutorials/)
+* [Contributing Documentation](/documentation/contributing/)
+* [Localization](/documentation/localization/)
+* [Tutorials](/documentation/tutorials/)
 
 Node.js documentation is a living network that compounds with new infomation for each release. We rely on the community to help identify areas that need clarification, provide valuable resources on using the language, and localizing text in multiple languages.
 
 ## Resources
 
-* [Trademark Policy](/contributing/resources/trademark)
+* [Trademark Policy](/contributing/resources/trademark/)
 * [Logos and Graphics](/contributing/resources/)
 
 ## Community

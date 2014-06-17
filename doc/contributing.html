@@ -9,6 +9,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/mse5tqx.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="/jquery.cycle2.min.js"></script>
     <link rel="alternate"
           type="application/rss+xml"
           title="node blog"
@@ -16,7 +17,7 @@
     <title>__TITLE__ | node.js</title>
   </head>
 
-  <body class="int alt" id="__FILENAME__">
+  <body class="int alt" id="__TITLE__">
     <div id="nav">
       <img id="logo" src="/images/logo.svg" alt="node.js">
       <ul>
@@ -29,7 +30,17 @@
         <li><a href="http://blog.nodejs.org">Blog</a></li>
       </ul>
     </div>
-
+    <div class="carousel">
+      <div class="cycle-slideshow" data-cycle-fx="scrollHorz">
+        <img src="/images/contributing-photo-01.jpg">
+        <img src="/images/contributing-photo-02.jpg">
+        <img src="/images/contributing-photo-03.jpg">
+        <img src="/images/contributing-photo-04.jpg">
+        <img src="/images/contributing-photo-05.jpg">
+        <img src="/images/contributing-photo-06.jpg">
+        <img src="/images/contributing-photo-07.jpg">
+      </div>
+    </div>
     <div id="content-wrap">
     <div id="content" class="clearfix">
       <div id="column1" class="interior">
