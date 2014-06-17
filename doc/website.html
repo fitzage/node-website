@@ -24,6 +24,7 @@
         <li><a href="/download">Downloads</a></li>
         <li><a href="/docs">Docs</a></li>
         <li><a href="/contributing">Contributing</a></li>
+        <li><a href="/about">About</a></li>
         <li><a href="http://jobs.nodejs.org">Jobs</a></li>
         <li><a href="http://blog.nodejs.org">Blog</a></li>
       </ul>
@@ -86,8 +87,8 @@
         var href = $(location).attr('href');
         var parts = href.split('/');
         $('body').addClass(parts[parts.length-2]);
-        $('.community h2, .contributing h1').not('.no').each(function(){
-            $(this).nextUntil("h2,h1").andSelf().wrapAll('<div class="block" />');
+        $('.community h2, .contributing h2').not('.no').each(function(){
+            $(this).nextUntil("h2,h2").andSelf().wrapAll('<div class="block" />');
         });
         $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
         $('.block h2 a.mark').each(function() {

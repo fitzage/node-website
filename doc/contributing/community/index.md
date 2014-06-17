@@ -1,10 +1,10 @@
 # Community
 
-<hr>
-
-Node's most valuable feature is the friendly and colorful community of
-developers. There are many places where this group congregates on the internet.
-This page attempts to highlight the best forums.
+There are many facets to the Node.js community, and many different ways you can
+get involved. Make sure to find a portion of the community you find yourself
+passionate about and participate in that community. Whether that is the IRC
+channel, mailing lists, StackOverflow, or meetups and conferences there are
+many ways to participate in the Node.js community.
 
 ## Documentation
 
@@ -35,6 +35,15 @@ announcements and discussion about Node.
 The [github issues list](https://github.com/joyent/node/issues) the place for
 discussion of Node.js core features
 
+For real-time chat about Node development go to `irc.freenode.net` in the
+`#node.js` channel with an [IRC
+client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
+or connect in your web browser to the channel using [freenode's
+WebChat](http://webchat.freenode.net/?channels=node.js).
+
+[Twitter](https://twitter.com/nodejs)
+
+
 ## Periodicals
 
  * [Node Weekly](http://nodeweekly.com) is an email
@@ -56,13 +65,3 @@ webpage listing upcoming meetups and events in different places.
 `nodejs.org` does not maintain any translations into
 other languages. However there are community websites in various
 languages with mailing lists and translations of the website.
-
-
-## IRC
-
-For real-time chat about Node development go to `irc.freenode.net` in the
-`#node.js` channel with an [IRC
-client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
-or connect in your web browser to the channel using [freenode's
-WebChat](http://webchat.freenode.net/?channels=node.js).
-

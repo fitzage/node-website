@@ -23,6 +23,7 @@
       <li><a href="http://nodejs.org/download">Downloads</a></li>
       <li><a href="http://nodejs.org/docs">Docs</a></li>
       <li><a href="http://nodejs.org/contributing">Contributing</a></li>
+      <li><a href="http://nodejs.org/about">About</a></li>
       <li><a href="http://jobs.nodejs.org">Jobs</a></li>
       <li class="active"><a href="http://blog.nodejs.org">Blog</a></li>
     </ul>
@@ -30,10 +31,10 @@
   <div id="content-wrap">
   <div id="content" class="clearfix">
     <div id="column1" class="interior">
-      <h1><%- title %></h1>
       <% if (typeof post !== 'undefined') {
         // just one post on this page
         %>
+        <h1><%- title %></h1>
         <p class="meta"><%-
           post.date.toUTCString().replace(/ GMT$/, '') + ' UTC' +
           (post.author ? ' - ' + post.author : '') +

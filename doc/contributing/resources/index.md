@@ -1,5 +1,4 @@
 <h1>Resources</h1>
-<hr>
 <h2>Logo Downloads</h2>
 <table border="0" cellspacing="0" cellpadding="10">
   <tr>
