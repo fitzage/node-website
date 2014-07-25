@@ -465,7 +465,6 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 #column1.interior .signature ul {
-  padding-left: 0;
 }
 
 #docs #column1.interior {
@@ -528,6 +527,7 @@ div.block:nth-of-type(3n) {
 #content .block ul {
   list-style-type: none;
   margin-top: 0;
+  padding-left: 0;
 }
 
 #footer {
