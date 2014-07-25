@@ -113,6 +113,16 @@ h1 a, h2 a, h3 a, h4 a {
   font-size: inherit;
 }
 
+.existing-team #content h2 + ul, .existing-team #content .signature ul {
+  margin-top: 0;
+}
+.existing-team h2 {
+  margin-bottom: 0;
+}
+.existing-team h2 a {
+  color: #80bd01;
+}
+
 #nav {
   background: #303030;
   padding-top: 22px;
