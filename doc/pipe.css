@@ -843,3 +843,11 @@ a.mark:hover {
   padding: 3px 10px 3px 15px;
   z-index: 999;
 }
+
+table th {
+  font-weight: 600;
+}
+
+b {
+  font-weight: 600;
+}
