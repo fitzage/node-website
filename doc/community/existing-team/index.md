@@ -1,6 +1,6 @@
 # Existing Team
 
-## TJ Fontaine
+## [TJ Fontaine](https://github.com/tjfontaine)
 
  * Employed by [Joyent](http://joyent.com)
  * Full-Time (Project Lead)
@@ -10,7 +10,7 @@
     - Binary Addon Layer
     - User Defined Tracing
 
-## Fedor Indutny
+## [Fedor Indutny](https://github.com/indutny)
 
  * Employed by [Voxer](http://voxer.com)
  * Full-Time
@@ -19,7 +19,7 @@
     - http_parser
     - libuv
 
-## Nathan Rajlich
+## [Nathan Rajlich](https://github.com/TooTallNate)
 
  * Employed by [CloudUp](http://cloudup.com)
  * Part-Time
@@ -28,21 +28,21 @@
     - url
     - node-gyp
 
-## Chris Dickinson
+## [Chris Dickinson](https://github.com/chrisdickinson)
 
  * Employed by [WalmartLabs](http://walmartlabs.com)
  * Full-Time
  * Maintains
     - streams
 
-## Alexis Campilla
+## [Alexis Campilla](https://github.com/orangemocha)
 
  * Employed by [MSOpenTech](http://msopentech.com)
  * Full-Time
  * Maintains
     - Windows
 
-## Trevor Norris
+## [Trevor Norris](https://github.com/trevnorris)
 
  * Employed by [NodeSource](http://nodesource.com)
  * Full-Time
