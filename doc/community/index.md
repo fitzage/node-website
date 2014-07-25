@@ -20,11 +20,11 @@ Node.js documentation is a living network that compounds with new infomation for
 
 ## Resources
 
-* [Trademark Policy](/community/resources/trademark/)
-* [Logos and Graphics](/community/resources/logos/)
 * [Community Directory](/community/directory/)
-* [Mailing List](http://groups.google.com/group/nodejs)
 * [Issues](https://github.com/joyent/node/issues)
+* [Logos and Graphics](/community/resources/logos/)
+* [Mailing List](http://groups.google.com/group/nodejs)
+* [Trademark Policy](/community/resources/trademark/)
 * [Twitter](https://twitter.com/nodejs)
 
 There are many facets to the Node.js community, and many different ways you can get involved. Make sure to find a portion of the community you find yourself passionate about and participate in that community. Whether that is the IRC channel, mailing lists, StackOverflow, or meetups and conferences there are many ways to participate in the Node.js community.
