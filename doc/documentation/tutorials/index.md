@@ -1,6 +1,4 @@
-# Tutorials
-
-## NodeSchool
+# NodeSchool
 
 [NodeSchool](http://nodeschool.io) is a fantastic resource for learning about
 Node.js and the related ecosystem around Node. There are a series of curricula

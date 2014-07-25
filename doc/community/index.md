@@ -4,15 +4,15 @@ The Node.js community is large and inclusive, and excited to enable as many user
 
 ## Core
 
-* [Core Team](/contributing/core-team/)
-* [link](http://test.com)
+* [Core Team](/community/core-team/)
+* [Existing Team](/community/existing-team/)
 * [link](http://test.com)
 
 Node.js as a software project aims to provide a small and maintainable interface to enable its consumers to use it to the fullest. Similarly the team of engineers that control the source repository for Node.js is small.
 
 ## Docs
 
-* [Contributing Documentation](/documentation/contributing/)
+* [Contributing](/documentation/contributing/)
 * [Localization](/documentation/localization/)
 * [Tutorials](/documentation/tutorials/)
 
@@ -20,14 +20,11 @@ Node.js documentation is a living network that compounds with new infomation for
 
 ## Resources
 
-* [Trademark Policy](/contributing/resources/trademark/)
-* [Logos and Graphics](/contributing/resources/)
-
-## Community
-
-* [Community Directory](/contributing/community/)
+* [Trademark Policy](/community/resources/trademark/)
+* [Logos and Graphics](/community/resources/logos/)
+* [Community Directory](/community/directory/)
 * [Mailing List](http://groups.google.com/group/nodejs)
 * [Issues](https://github.com/joyent/node/issues)
 * [Twitter](https://twitter.com/nodejs)
 
-Node's most valuable feature is the friendly and colorful community of developers. There are many places where this group congregates on the internet. See the list of forums and places to connect.
+There are many facets to the Node.js community, and many different ways you can get involved. Make sure to find a portion of the community you find yourself passionate about and participate in that community. Whether that is the IRC channel, mailing lists, StackOverflow, or meetups and conferences there are many ways to participate in the Node.js community.

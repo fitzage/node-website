@@ -61,4 +61,3 @@ questions from other team members where possible. There are also scheduled
 calls where the team collaborates with each other to discuss more complex
 issues as well as making sure no one is blocked on anyone else. These calls are
 mostly helpful to discuss architecure and the roadmap.
-

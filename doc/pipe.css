@@ -93,7 +93,7 @@ h3, h4 {
   color: #80bd01;
 }*/
 
-.contributing h2 {
+#Community h2 {
   font-weight: 200;
   font-size: 30px;
   text-transform: uppercase;
@@ -101,7 +101,7 @@ h3, h4 {
   margin-bottom: 0;
 }
 
-.contributing #content ul a {
+#Community #content ul a {
   font-weight: bold;
   line-height: 15px;
   text-decoration: underline;
@@ -310,13 +310,13 @@ h1 a, h2 a, h3 a, h4 a {
   padding-top: 10px;
 }
 
-.contributing #content, .docs #content {
+#Community #content, .docs #content {
   width: 953px;
 }
 
-.int.community #content {
+/* .int.community #content {
   width: 775px;
-}
+} */
 
 #column1 {
   width: 460px;
@@ -502,18 +502,18 @@ h1 a, h2 a, h3 a, h4 a {
 .row h2.installers { background-position: left -522px; }
 
 .block {
-  width: 215px;
+  width: 290px;
   float: left;
   min-height: 420px;
   margin-right: 30px;
 }
 
-.community .block {
+/* .community .block {
   width: 365px;
   min-height: 270px;
-}
+} */
 
-div.block:nth-of-type(4n),.community div.block:nth-of-type(2n) {
+div.block:nth-of-type(3n) {
   margin-right: 0;
 }
 
@@ -828,7 +828,7 @@ a.mark:hover {
   margin: 0 auto;
 }
 
-#Contributing #content h1 {
+#Community #content h1 {
   border-bottom: none;
   font-weight: 600;
   text-transform: uppercase;

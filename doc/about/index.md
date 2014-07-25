@@ -1,4 +1,4 @@
-# About Node.js™
+# About Node.js&reg;
 
 As an asynchronous event driven framework, Node.js is designed to build
 scalable network applications. In the following "hello world" example, many
