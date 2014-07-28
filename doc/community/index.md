@@ -1,30 +1,89 @@
 # We encourage any and all styles of contribution from the community.
 
-The Node.js community is large and inclusive, and excited to enable as many users to contribute in whatever what they can. If what you're looking to do is report an issue, or learn how to contribute to our projects, this is the right place to learn how.
+The Node.js community is large, inclusive, and excited to enable as many users to contribute in whatever what they can.  If you want to [report an issue](https://github.com/joyent/node/issues), [help with documentation](/documentation/contributing/) or [contribute to the code base](/documentation/contributing/) of the project, you’ve come to the right place. Explore our community resources to find out how you can help:
 
-## Core
+<hr>
 
-* [Core Team](/community/core-team/)
-* [Existing Team](/community/existing-team/)
-* [link](http://test.com)
+## Events
 
-Node.js as a software project aims to provide a small and maintainable interface to enable its consumers to use it to the fullest. Similarly the team of engineers that control the source repository for Node.js is small.
+[Node Meatspace](http://nodemeatspace.com) is a
+webpage listing upcoming meetups and events in different places.
 
-## Docs
+<a href="http://www.nodeconf.com/">NodeConf</a> conferences are
+  the main event in the United States.
 
-* [Contributing](/documentation/contributing/)
-* [Localization](/documentation/localization/)
-* [Tutorials](/documentation/tutorials/)
+<a href="http://nodeconfeu.com/">NodeConf EU</a> is a Node
+  conference in Europe, organized by Cian Ó Maidín.
 
-Node.js documentation is a living network that compounds with new infomation for each release. We rely on the community to help identify areas that need clarification, provide valuable resources on using the language, and localizing text in multiple languages.
+<a href="http://nodefest.jp/">NodeFest (東京Node学園祭)</a> is
+  organized by the <a href="http://nodejs.jp">Node.js Japan user
+  group</a>.
 
-## Resources
+An <a href="http://nodejsconf.it/">Italian Node.js
+  Conference</a> is held in Brescia.
 
-* [Community Directory](/community/directory/)
-* [Issues](https://github.com/joyent/node/issues)
-* [Logos and Graphics](/community/resources/logos/)
-* [Mailing List](http://groups.google.com/group/nodejs)
-* [Trademark Policy](/community/resources/trademark/)
-* [Twitter](https://twitter.com/nodejs)
+<a href="http://nodesummit.com/">Node Summit</a> is a conference
+  in San Francisco focusing on the adoption of Node in larger
+  companies.
 
-There are many facets to the Node.js community, and many different ways you can get involved. Make sure to find a portion of the community you find yourself passionate about and participate in that community. Whether that is the IRC channel, mailing lists, StackOverflow, or meetups and conferences there are many ways to participate in the Node.js community.
+<a href="http://jsconf.com/">JSConf</a> organizes the main
+  JavaScript conferences.
+
+## Discussion
+
+The [mailing list](http://groups.google.com/group/nodejs) is used for
+announcements and discussion about Node.
+
+The [github issues list](https://github.com/joyent/node/issues) the place for
+discussion of Node.js core features
+
+For real-time chat about Node development go to `irc.freenode.net` in the
+`#node.js` channel with an [IRC
+client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
+or connect in your web browser to the channel using [freenode's
+WebChat](http://webchat.freenode.net/?channels=node.js).
+
+The official Node.js Twitter account is [nodejs](https://twitter.com/nodejs)
+
+[Node Weekly](http://nodeweekly.com) is an email
+list that gathers up the latest events and news from around the Node.js
+community.
+
+[Planet Node](http://planetnodejs.com) is an aggregator of Node developer
+blogs.
+
+[NodeUp](http://nodeup.com) is a podcast covering the latest Node news in
+the community.
+
+[NodeJS Reactions](http://nodejsreactions.tumblr.com) captures the Node.js
+experience in the form of animated GIFs.
+
+## Learning
+
+[Official API reference documentation](/api) details the Node API.
+
+[NodeSchool.io](http://nodeschool.io) will teach you Node.js concepts via
+interactive command-line games.
+
+[StackOverflow Node.js tag](http://stackoverflow.com/questions/tagged/node.js)
+collects new information every day.
+
+[docs.nodejitsu.com](http://docs.nodejitsu.com/) answers many of the common
+problems people come across.
+
+[How To Node](http://howtonode.org/) has a growing number of useful tutorials.
+
+## Development
+
+All development takes place at
+[github.com/joyent/node](http://github.com/joyent/node). This is where
+discussion regarding core development occurs.
+
+If you are interested in contributing to Node.js, please first read the
+[contribution
+guide](/documentation/contributing/).
+
+nodejs.org does not maintain any translations into
+other languages. However [there are community websites](/documentation/localization/) in various
+languages with mailing lists and translations of the website.
+

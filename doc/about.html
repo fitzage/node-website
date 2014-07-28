@@ -16,7 +16,7 @@
     <title>__TITLE__ | node.js</title>
   </head>
 
-  <body class="int alt" id="__TITLE__">
+  <body class="int alt" id="docs">
     <div id="nav">
       <img id="logo" src="/images/logo.svg" alt="node.js">
       <ul>
@@ -29,12 +29,17 @@
         <li><a href="http://blog.nodejs.org">Blog</a></li>
       </ul>
     </div>
-    <div class="carousel">
-      <div class="cycle-slideshow">
-      </div>
-    </div>
+
     <div id="content-wrap">
     <div id="content" class="clearfix">
+      <div id="column2" class="interior">
+        <!--<img src="/images/logo-light.svg" alt="node.js" width="170">-->
+        <ul class="docs-nav">
+          <li><a href="/about/">About Node.js</a></li>
+          <li><a href="/about/organization/">Organization</a></li>
+          <li><a href="/about/core-team/">Core Team</a></li>
+        </ul>
+      </div>
       <div id="column1" class="interior">
         __CONTENT__
       </div>
@@ -84,16 +89,13 @@
 
     <script>
       $(document).ready(function() {
-        var href = $(location).attr('href');
-        var parts = href.split('/');
-        $('body').addClass(parts[parts.length-2]);
-        $('.community h2, .contributing h2').not('.no').each(function(){
-            $(this).nextUntil("h2,h2").andSelf().wrapAll('<div class="block" />');
-        });
         $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
-        $('.block h2 a.mark').each(function() {
-          var blockclass = $(this).attr('id');
-          $(this).parent().closest('div').addClass(blockclass);
+        $(function() {
+          $('.docs-nav a').each(function() {
+            if ($(this).attr("href") == window.location.pathname) {
+              $(this).parent().closest('li').addClass('active');
+            }
+          });
         });
       });
       window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];

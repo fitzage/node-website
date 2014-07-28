@@ -4,7 +4,13 @@
 
 html {
   -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke: .1px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  border: none;
+  background-color: #999999;
+  height: 1px;
 }
 
 .din {
@@ -35,6 +41,10 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: 0;
+}
+
+body a {
+  font-weight: bold;
 }
 
 img {
@@ -95,8 +105,9 @@ h3, h4 {
   font-weight: 200;
   font-size: 30px;
   text-transform: uppercase;
-  line-height: 90px;
+  line-height: 60px;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 #Community #content ul a {
@@ -111,13 +122,7 @@ h1 a, h2 a, h3 a, h4 a {
   font-size: inherit;
 }
 
-.existing-team #content h2 + ul, .existing-team #content .signature ul {
-  margin-top: 0;
-}
-.existing-team h2 {
-  margin-bottom: 0;
-}
-.existing-team h2 a {
+h3 a {
   color: #80bd01;
 }
 
@@ -167,6 +172,7 @@ h1 a, h2 a, h3 a, h4 a {
 
 #nav ul li a {
   padding: 0 12px;
+  font-weight: normal;
   border-left: 1px solid rgba(109,109,109,.4);
   text-transform: uppercase;
   font-size: 14px;
@@ -510,7 +516,7 @@ h1 a, h2 a, h3 a, h4 a {
 .row h2.installers { background-position: left -522px; }
 
 .block {
-  width: 290px;
+  width: 215px;
   float: left;
   min-height: 420px;
   margin-right: 30px;
@@ -521,7 +527,7 @@ h1 a, h2 a, h3 a, h4 a {
   min-height: 270px;
 } */
 
-div.block:nth-of-type(3n) {
+div.block:nth-of-type(4n) {
   margin-right: 0;
 }
 
@@ -606,6 +612,7 @@ div.block:nth-of-type(3n) {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 10px;
+  font-weight: normal;
 }
 
 #footer a.getstarted:hover {
@@ -645,6 +652,10 @@ div.block:nth-of-type(3n) {
   font-size: 13px;
   line-height: 13px;
   margin-bottom: 15px;
+}
+
+#footer ul li a {
+  font-weight: normal;
 }
 
 pre, tt, code {
@@ -778,6 +789,7 @@ a:hover {
 
 .docs-nav li a {
   color: black;
+  font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   text-transform: uppercase;
@@ -867,4 +879,10 @@ table th {
 
 b {
   font-weight: 600;
+}
+
+table.logos td.jstm img {
+  width: 130px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }

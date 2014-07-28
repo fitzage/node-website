@@ -1,4 +1,4 @@
-# Core Team
+# Organization
 
 Node.js being a thin framework with a small surface the team that is
 responsible for maintaining Node.js is kept deliberately small.
