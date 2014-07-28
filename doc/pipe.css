@@ -26,17 +26,15 @@ html {
 
 body {
   background: #1d1d1d;
-  color: #black;
+  color: #333333;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 17px;
   line-height: 200%;
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 0;
-}
-
-body.alt {
-  color: #000000;
 }
 
 img {
@@ -823,10 +821,11 @@ a.mark:hover {
 }
 
 .carousel {
-  background: #80bd01;
+  background: url(/images/contributing-photo-combo.jpg) no-repeat left top #80bd01;
   height: 270px;
-  widt: 100%;
+  width: 100%;
   text-align: center;
+  background-size: auto 300px;
 }
 
 .carousel img {
@@ -844,15 +843,22 @@ a.mark:hover {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 23px;
-  position: absolute;
-  top: 270px;
+  position: relative;
+  top: -160px;
+  margin: 0 auto;
   text-align: center;
-  left: 50%;
-  margin-left: -29%;
   color: white;
   background: rgba(0,0,0,.7);
   padding: 3px 10px 3px 15px;
   z-index: 999;
+}
+
+#Community #content #column1 {
+  padding-top: 0;
+}
+
+#Community #content #column1 h1 + p {
+  margin-top: 0;
 }
 
 table th {
