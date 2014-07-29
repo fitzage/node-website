@@ -2,7 +2,7 @@
 
 ## Logo Downloads
 
- Please review the [trademark policy](/images/trademark-policy.pdf) for full information about permissible use of Node.js&reg; logos and marks.
+ Please review the [trademark policy](/about/trademark/) for information about permissible use of Node.js&reg; logos and marks.
 
 <table border="0" cellspacing="0" cellpadding="10" class="logos">
   <tr>
