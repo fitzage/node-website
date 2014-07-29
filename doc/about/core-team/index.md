@@ -45,13 +45,13 @@
     - url
     - node-gyp
 
-## Pending Team Members
+## Apprentices
 
 Chris Dickinson ([chrisdickinson](https://github.com/chrisdickinson))<br>
 Julien Gilli ([misterdjules](https://github.com/misterdjules))
 
 
-## Team Members Emeritus
+## Alumni
 
 Node is an open source project run by [Joyent](https://www.joyent.com), originally written by [Ryan Dahl](https://github.com/ry).
 
