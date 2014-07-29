@@ -53,7 +53,8 @@ Julien Gilli ([misterdjules](https://github.com/misterdjules))
 
 ## Team Members Emeritus
 
-Ryan Dahl ([ry](https://github.com/ry))<br>
+Node is an open source project run by [Joyent](https://www.joyent.com), originally written by [Ryan Dahl](https://github.com/ry).
+
 Felix Geisendoerfer ([felixge](https://github.com/felixge))<br>
 Paul Querna ([pquerna](https://github.com/pquerna))<br>
 Igor Zinkovsky ([igorzi](https://github.com/igorzi))<br>
