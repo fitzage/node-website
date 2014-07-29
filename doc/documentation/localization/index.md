@@ -7,7 +7,7 @@ enable their members is by providing some form of translation of the Node.js
 website and documentation.
 
 We're working to provide a framework to enable everyone to contribute to this
-effort, it follows our normal [contribution process](/contributing) and the
+effort, it follows our normal [contribution process](/documentation/contributing/) and the
 project you're contributing to is the [Node.js
 website](https://github.com/joyent/node-website).
 
