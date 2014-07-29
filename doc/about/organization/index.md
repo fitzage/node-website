@@ -145,20 +145,3 @@ order to avoid as much pain as possible?
 In short its not impossible for APIs to be deprecated, but just like the adding
 of APIs, deprecating of an API is not something to be taken lightly.
 
-### Reaching 1.0
-
-There are often questions about when will Node.js be 1.0, to be sure we believe
-that Node.js is absolutely production ready today. If your concern was about if
-you should be using software that isn't yet marked 1.0, fear not Node.js is
-ready for you, are you ready for Node.js?
-
-That being said, even though many people are using Node.js successfully in
-production, and we as a project have a strong commitment to backwards
-compatibility we do not take lightly the marking of the project 1.0. To mark
-the project as 1.0 means that we are sure we want to support these APIs for the
-foreseeable future. And right now there are some outstanding questions that can
-be found in the [issues](http://github.com/joyent/node/issues) about if we are
-able to actually mark Node.js as 1.0.
-
-Rest assured, when Node.js is marked 1.0 it will be because the project has
-indeed reached that level.
