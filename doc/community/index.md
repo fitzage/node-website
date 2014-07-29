@@ -6,9 +6,6 @@ The Node.js community is large, inclusive, and excited to enable as many users t
 
 ## Events
 
-[Node Meatspace](http://nodemeatspace.com) is a
-webpage listing upcoming meetups and events in different places.
-
 <a href="http://www.nodeconf.com/">NodeConf</a> conferences are
   the main event in the United States.
 
