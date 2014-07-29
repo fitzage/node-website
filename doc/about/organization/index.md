@@ -1,11 +1,8 @@
 # Organization
 
-Node.js being a thin framework with a small surface the team that is
-responsible for maintaining Node.js is kept deliberately small.
-
 ## Becoming a team member
 
-[Team members](/existing-members) are selected based on their contributions to
+[Team members](/about/organization/) are selected based on their contributions to
 the GitHub project and their domain expertise for a given subsystem.
 
 The subsystems eligible for maintainence in Node.js are the following:
@@ -33,7 +30,7 @@ Node.js.
 ### Integrating Changes
 
 All changes should follow the [contribution
-guidelines](/contributing/pullrequests) for pull requests. Simple and straight
+guidelines](/documentation/contributing/) for pull requests. Simple and straight
 forward bug fixes that are obvious to the subsystem maintainer or other core
 team members may be committed without review.  All other changes require review
 by at least one team member before being pushed to the public repository,
