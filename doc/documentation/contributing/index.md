@@ -20,8 +20,6 @@ information:
  * Platform you're running on (OS X, SunOS, Linux, Windows)
  * Architecture you're running on (32bit or 64bit and x86 or ARM)
 
-## Requesting a Feature
-
 ## Contributing a Feature or Fix
 
 If you have identified an issue or feature that you want to supply the fix for
