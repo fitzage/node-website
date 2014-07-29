@@ -55,12 +55,12 @@ Julien Gilli ([misterdjules](https://github.com/misterdjules))
 
 Node is an open source project run by [Joyent](https://www.joyent.com), originally written by [Ryan Dahl](https://github.com/ry).
 
-Felix Geisendoerfer ([felixge](https://github.com/felixge))<br>
-Paul Querna ([pquerna](https://github.com/pquerna))<br>
-Igor Zinkovsky ([igorzi](https://github.com/igorzi))<br>
-Koichi Kobayashi ([koichik](https://github.com/koichik))<br>
-Isaac Schlueter ([isaacs](https://github.com/isaacs))<br>
-Bert Belder ([piscisaureus](https://github.com/piscisaureus))<br>
 Ben Noordhuis ([bnoordhuis](https://github.com/bnoordhuis))<br>
+Bert Belder ([piscisaureus](https://github.com/piscisaureus))<br>
+Felix Geisendoerfer ([felixge](https://github.com/felixge))<br>
+Igor Zinkovsky ([igorzi](https://github.com/igorzi))<br>
+Isaac Schlueter ([isaacs](https://github.com/isaacs))<br>
+Koichi Kobayashi ([koichik](https://github.com/koichik))<br>
+Paul Querna ([pquerna](https://github.com/pquerna))<br>
 Scott Blomquist ([sblom](https://github.com/sblom))
 
