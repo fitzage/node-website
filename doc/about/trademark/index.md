@@ -14,7 +14,7 @@ that the community and users of Node.js are always protected in the future.
 At the same time, we’d like community members to feel comfortable spreading the
 word about Node.js and participating in the Node.js community. Keeping that
 goal in mind, we’ve tried to make the policy as flexible and easy to understand
-as legally possible
+as legally possible.
 
-Please read the [full policy](/trademark-policy.pdf) if you have any questions
+Please read the [full policy](/images/trademark-policy.pdf) if you have any questions
 don't hesistate to [email us](mailto:trademark@joyent.com).
